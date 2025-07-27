@@ -1,0 +1,85 @@
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+.card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px black;
+  padding: 20px;
+  max-width: 350px;
+  border: 1px solid black;
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card__tag {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-weight: 900;
+}
+
+.card__date {
+  color: hsl(0, 0%, 0%);
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.card__title {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.card__title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.card__description {
+  color: hsl(0, 0%, 49%);
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.card__author {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: small;
+}
+
+.card__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  color: hsl(228, 45%, 44%);
+}
